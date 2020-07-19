@@ -21,6 +21,14 @@ int main()
         int rotate; // the rotation angle in degrees (-90 to 90).
         int power; // the thrust power (0 to 4).
         cin >> X >> Y >> hSpeed >> vSpeed >> fuel >> rotate >> power; cin.ignore();
+<<<<<<< HEAD
+<<<<<<< HEAD
         cout << "0 " << (power = vSpeed <= -40 ? 4 : 0)<<endl;
+=======
+        cout<<"0 "<<(power = vSpeed<=-40?4:0)<<endl;
+>>>>>>> 74be0d4... new commit from magit
+=======
+        cout<<"0 "<<(power = vSpeed<=-40?4:0)<<endl;
+>>>>>>> 74be0d4... new commit from magit
     }
 }
