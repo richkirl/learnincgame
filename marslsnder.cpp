@@ -21,7 +21,6 @@ int main()
         int rotate; // the rotation angle in degrees (-90 to 90).
         int power; // the thrust power (0 to 4).
         cin >> X >> Y >> hSpeed >> vSpeed >> fuel >> rotate >> power; cin.ignore();
-        power = vSpeed <= -40 ? 4 : 0;
-        cout << "0 "<<power << endl;
+        cout << "0 " << (power = vSpeed <= -40 ? 4 : 0)<<endl;
     }
 }
