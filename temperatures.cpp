@@ -7,11 +7,9 @@
 using namespace std;
 int main()
 {
-    //int m=0,tmp=0;
-    const int n=4; // the number of temperatures to analyse
+    const int n=4;
     int t[n]={5,-1,4,6};
     int m;
-   
     m=t[0];
     for (int i = 1; i < n; i++) {
         if (abs(t[i])<abs(m) || t[i]==abs(m)) {
